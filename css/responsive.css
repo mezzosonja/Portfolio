@@ -1,0 +1,1049 @@
+/******************** Responsive CSS ********************/
+
+
+/***** 1280x800px ****/
+
+@media screen and (min-width: 800px) and (max-width: 1280px) {
+    .graph {
+        width: 240px;
+        height: 120px;
+        font-size: 20px;
+        line-height: 200px;
+    }
+
+    .graph:before,
+    .graph:after {
+        width: 240px;
+        height: 120px;
+    }
+}
+
+/***** 980x ****/
+
+@media screen and (min-width: 980px) {
+    .border {
+        font-size: 62px;
+    }
+
+    .border-text {
+        font-size: 18px;
+    }
+
+    .text-title h2 {
+        font-size: 45px;
+    }
+
+    .text-title h5 {
+        font-size: 18px;
+    }
+
+    .text-box p {
+        font-size: 18px;
+    }
+
+    #portfolio .portfolio-item .portfolio-caption h4 {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+
+    .sectionContent h2 {
+        font-size: 18px;
+    }
+
+    .subDetails {
+        font-size: 16px;
+    }
+
+    .subDetails-right {
+        font-size: 16px;
+    }
+
+    .subDetails-small {
+        font-size: 16px;
+    }
+
+    #social-test li {
+        width: 10%;
+        height: 20%;
+    }
+
+    .text-title h6 {
+        font-size: 20px;
+    }
+}
+
+/***** x979 ****/
+
+@media screen and (max-width: 979px) {
+    .border {
+        font-size: 62px;
+    }
+
+    .border-text {
+        font-size: 18px;
+    }
+
+    .text-title h2 {
+        font-size: 45px;
+    }
+
+    .text-title h5 {
+        font-size: 18px;
+    }
+
+    .text-box p {
+        font-size: 18px;
+    }
+
+    #portfolio .portfolio-item .portfolio-caption h4 {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+
+    #social-test li {
+        width: 10%;
+        height: 20%;
+    }
+
+    .text-title h6 {
+        font-size: 20px;
+    }
+}
+
+/***** 1366x768px - LANDSCAPE ****/
+
+@media screen and (min-width: 768px) and (max-width: 1366px) and (orientation: landscape) {
+    .box {
+        padding: 5%;
+    }
+    .graph {
+        width: 240px;
+        height: 120px;
+        font-size: 20px;
+        line-height: 200px;
+    }
+
+    .graph:before,
+    .graph:after {
+        width: 240px;
+        height: 120px;
+    }
+
+    .model {
+        padding: 0%;
+    }
+}
+
+/***** 768x1024px - PORTRAIT -iPAD ****/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .border {
+        font-size: 45px;
+    }
+
+    .border-text {
+        font-size: 12px;
+    }
+
+    .sectionContent h2 {
+        font-size: 18px;
+    }
+
+    .subDetails {
+        font-size: 16px;
+    }
+
+    .subDetails-right {
+        font-size: 15px;
+    }
+
+    .subDetails-small {
+        font-size: 16px;
+    }
+
+    .graph {
+        width: 260px;
+        height: 130px;
+        font-size: 18px;
+        line-height: 180px;
+    }
+
+    .graph:before,
+    .graph:after {
+        width: 260px;
+        height: 130px;
+    }
+
+    .model {
+        padding: 5% 0%;
+    }
+
+    .padd {
+        padding: 5%;
+    }
+}
+
+/***** 800x600px - LANDSCAPE ****/
+
+@media screen and (min-width: 600px) and (max-width: 800px) and (orientation: landscape) {
+    .border {
+        font-size: 45px;
+    }
+
+    .border-text {
+        font-size: 12px;
+    }
+
+    .box {
+        padding: 5% 10%;
+    }
+
+    .text-box p {
+        font-size: 16px;
+    }
+
+    .sectionContent h2 {
+        font-size: 18px;
+    }
+
+    .subDetails {
+        font-size: 16px;
+    }
+
+    .subDetails-right {
+        font-size: 15px;
+    }
+
+    .subDetails-small {
+        font-size: 16px;
+    }
+
+    .graph {
+        width: 200px;
+        height: 100px;
+        font-size: 16px;
+        line-height: 180px;
+    }
+
+    .graph:before,
+    .graph:after {
+        width: 200px;
+        height: 100px;
+    }
+
+    .model {
+        padding: 3% 0%;
+    }
+
+    .padd {
+        padding: 1.5%;
+    }
+}
+
+/***** 720x1280px - PORTRAIT ****/
+
+@media screen and (min-width: 720px) and (max-width: 1280px) and (orientation: portrait) {
+    .content,
+    .silver,
+    #skills.content,
+    .contact {
+        min-height: auto;
+    }
+
+    .border {
+        font-size: 45px;
+    }
+
+    .border-text {
+        font-size: 14px;
+    }
+
+    .sectionContent h2 {
+        font-size: 18px;
+    }
+
+    .subDetails {
+        font-size: 14px;
+    }
+
+    .subDetails-right {
+        font-size: 14px;
+    }
+
+    .subDetails-small {
+        font-size: 14px;
+    }
+}
+
+/***** 600x800px - PORTRAIT ****/
+
+@media screen and (min-width: 600px) and (max-width: 800px) and (orientation: portrait) {
+    .border {
+        font-size: 40px;
+        letter-spacing: 16px;
+    }
+
+    .border-text {
+        font-size: 10px;
+        letter-spacing: 8px;
+    }
+
+    .box {
+        padding: 0%;
+    }
+
+    .text-title h2 {
+        font-size: 40px;
+        padding: 12% 0% 0% 0%;
+    }
+
+    .text-title h5 {
+        font-size: 16px;
+    }
+
+    .btn.button-text {
+        font-size: 30px;
+        letter-spacing: 4px;
+    }
+
+    .sectionTitle h1 {
+        font-size: 18px;
+        letter-spacing: 1px
+    }
+
+    .sectionContent h2 {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+
+    .subDetails {
+        font-size: 12px;
+    }
+
+    .subDetails-right {
+        font-size: 12px;
+    }
+
+    .subDetails-small {
+        font-size: 12px;
+    }
+
+    #social-test li {
+        width: 12%;
+        height: 20%;
+        display: block;
+        margin-left: 44%;
+        margin-bottom: 20px;
+    }
+    .text-title h6 {
+        font-size: 18px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    button.back-to-top {
+        right: 10px;
+        bottom: 75px;
+    }
+
+    button.back-to-top.show {
+        font-size: 20px;
+        height: 40px;
+        width: 40px;
+    }
+}
+
+/***** 640x480px - LANDSCAPE ****/
+
+@media screen and (min-width: 480px) and (max-width: 640px) and (orientation: landscape) {
+    .border {
+        font-size: 40px;
+        letter-spacing: 16px;
+    }
+
+    .border-text {
+        font-size: 10px;
+        letter-spacing: 8px;
+    }
+
+    .box {
+        padding: 0%;
+    }
+
+    .text-title h2 {
+        font-size: 40px;
+        padding: 12% 0% 0% 0%;
+    }
+
+    .text-title h5 {
+        font-size: 16px;
+    }
+    
+    .btn.button-text {
+        font-size: 30px;
+        letter-spacing: 4px;
+    }
+    
+    .sectionTitle h1 {
+        font-size: 18px;
+        letter-spacing: 1px
+    }
+
+    .sectionContent h2 {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+
+    .subDetails {
+        font-size: 12px;
+    }
+
+    .subDetails-right {
+        font-size: 12px;
+    }
+
+    .subDetails-small {
+        font-size: 12px;
+    }
+
+    .keySkills li {
+        font-size: 14px;
+    }
+
+    .graph {
+        width: 250px;
+        height: 125px;
+        font-size: 16px;
+        line-height: 180px;
+    }
+
+    .graph:before,
+    .graph:after {
+        width: 250px;
+        height: 125px;
+    }
+
+    .model {
+        padding: 5% 0%;
+    }
+
+    .padd {
+        padding: 3%;
+    }
+
+    #social-test li {
+        width: 12%;
+        height: 20%;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    button.back-to-top {
+        right: 10px;
+        bottom: 75px;
+    }
+
+    button.back-to-top.show {
+        font-size: 20px;
+        height: 40px;
+        width: 40px;
+    }
+}
+
+/***** 568x320px - LANDSCAPE ****/
+
+@media screen and (min-width: 320px) and (max-width: 568px) and (orientation: landscape) {
+    .navbar-brand {
+        margin-left: -60%;
+    }
+
+    button.navbar-toggler-right {
+        position: absolute;
+        right: -60%;
+    }
+    .border {
+        font-size: 36px;
+        letter-spacing: 10px;
+    }
+
+    .border-text {
+        font-size: 9px;
+        letter-spacing: 6px;
+    }
+    
+    .btn.button-text {
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
+    
+    .sectionTitle h1 {
+        font-size: 16px;
+        letter-spacing: 1px
+    }
+
+    .sectionContent h2 {
+        font-size: 14px;
+        letter-spacing: 0px;
+    }
+
+    .subDetails {
+        font-size: 12px;
+    }
+
+    .subDetails-right {
+        font-size: 10px;
+    }
+
+    .subDetails-small {
+        font-size: 10px;
+    }
+
+    .keySkills li {
+        font-size: 12px;
+    }
+
+    button.back-to-top {
+        right: 5px;
+        bottom: 75px;
+    }
+
+    button.back-to-top.show {
+        font-size: 15px;
+        height: 30px;
+        width: 30px;
+    }
+}
+
+/***** 480x320px - LANDSCAPE ****/
+
+@media screen and (min-width: 320px) and (max-width: 480px) and (orientation: landscape) {
+    .navbar-brand {
+        margin-left: -40%;
+    }
+
+    button.navbar-toggler-right {
+        position: absolute;
+        right: -40%;
+    }
+
+    .border {
+        font-size: 32px;
+        letter-spacing: 4px;
+    }
+
+    .border-text {
+        font-size: 8px;
+        letter-spacing: 4px;
+    }
+
+    .box {
+        padding: 0%;
+    }
+
+    .text-title h2 {
+        font-size: 35px;
+        padding: 15% 0% 0% 0%;
+    }
+
+    .text-title h5 {
+        font-size: 14px;
+    }
+
+    .text-box p {
+        font-size: 14px;
+    }
+
+    .padded {
+        padding: 0 30px 30px 30px;
+    }
+
+    .text-title h6 {
+        font-size: 16px;
+    }
+    
+    .sectionTitle h1 {
+        font-size: 16px;
+        letter-spacing: 0px
+    }
+
+    .sectionContent h2 {
+        font-size: 14px;
+        letter-spacing: 0px;
+    }
+
+    .subDetails {
+        font-size: 10px;
+        letter-spacing: 0px;
+    }
+
+    .subDetails-right {
+        font-size: 10px;
+        letter-spacing: 0px;
+    }
+
+    .subDetails-small {
+        font-size: 10px;
+        letter-spacing: 0px;
+    }
+
+    .keySkills li {
+        font-size: 12px;
+    }
+
+    #social-test li {
+        width: 13%;
+        height: 20%;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+}
+
+/***** 480x640px - PORTRAIT ****/
+
+@media screen and (max-width: 480px) and (orientation: portrait) {
+    .navbar-brand {
+        margin-left: -40%;
+    }
+
+    button.navbar-toggler-right {
+        position: absolute;
+        right: -40%;
+    }
+
+    .border {
+        font-size: 32px;
+        letter-spacing: 4px;
+    }
+
+    .border-text {
+        font-size: 8px;
+        letter-spacing: 4px;
+    }
+
+    .box {
+        padding: 0%;
+    }
+
+    .text-title h2 {
+        font-size: 35px;
+        padding: 15% 0% 0% 0%;
+    }
+
+    .text-title h5 {
+        font-size: 14px;
+    }
+
+    .text-box p {
+        font-size: 14px;
+    }
+
+    .padded {
+        padding: 0 30px 30px 30px;
+    }
+
+    .text-title h6 {
+        font-size: 16px;
+    }
+    
+    .sectionTitle h1 {
+        font-size: 16px;
+        letter-spacing: 0px
+    }
+
+    .sectionContent h2 {
+        font-size: 14px;
+        letter-spacing: 0px;
+    }
+
+    .subDetails {
+        font-size: 10px;
+        letter-spacing: 0px;
+    }
+
+    .subDetails-right {
+        font-size: 10px;
+        letter-spacing: 0px;
+    }
+
+    .subDetails-small {
+        font-size: 10px;
+        letter-spacing: 0px;
+    }
+
+    .keySkills li {
+        font-size: 12px;
+    }
+
+    #social-test li {
+        width: 13%;
+        height: 20%;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+
+    button.back-to-top {
+        right: 5px;
+        bottom: 75px;
+    }
+
+    button.back-to-top.show {
+        font-size: 15px;
+        height: 30px;
+        width: 30px;
+    }
+}
+
+/***** 412x732px - PORTRAIT ****/
+
+@media screen and (min-width: 412px) and (orientation: portrait) {
+    .btn.button-text {
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
+}
+
+/***** 412x732px - LANDSCAPE - NEXUS 5X ****/
+/***** 414x736px - LANDSCAPE - IPHONE 6 PLUS ****/
+
+@media screen and (min-width: 412px) and (max-width: 736px) and (orientation: landscape) {
+    .btn.button-text {
+        font-size: 30px;
+        letter-spacing: 3px;
+    }
+
+    footer p.float-left {
+        padding: 1% 0% 1% 0%;
+    }
+
+    footer p.float-right {
+        padding: 1% 0% 1% 0%;
+    }
+}
+
+/***** 360x640px - PORTRAIT ****/
+/***** 384x640px - PORTRAIT ****/
+
+@media screen and (min-width: 360px) and (max-width: 640px) and (orientation: portrait) {
+    .navbar-brand {
+        margin-left: -20%;
+    }
+    button.navbar-toggler-right {
+        position: absolute;
+        right: -15%;
+    }
+
+    .modal-title {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    .btn.button-text {
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+
+    footer p.float-left {
+        padding: 1% 0% 1% 0%;
+    }
+
+    footer p.float-right {
+        padding: 1% 0% 1% 0%;
+    }
+}
+
+/***** 375x667px - PORTRAIT ****/
+
+@media screen and (min-width: 375px) and (max-width: 667px) and (orientation: portrait) {
+    .btn.button-text {
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+
+    footer p.float-left {
+        padding: 1% 0% 1% 0%;
+    }
+
+    footer p.float-right {
+        padding: 1% 0% 1% 0%;
+    }
+}
+
+/***** 375x667px - LANDSCAPE ****/
+
+@media screen and (min-width: 375px) and (max-width: 667px) and (orientation: landscape) {
+    .btn.button-text {
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+
+    footer p.float-left {
+        padding: 1% 0% 1% 0%;
+    }
+
+    footer p.float-right {
+        padding: 1% 0% 1% 0%;
+    }
+}
+
+/***** 320x568px - PORTRAIT ****/
+/***** 320x480px - PORTRAIT ****/
+
+@media screen and (max-width: 320px) {
+    .navbar-brand {
+        margin-left: -10%;
+    }
+
+    button.navbar-toggler-right {
+        position: absolute;
+        right: -15%;
+    }
+
+    .border {
+        font-size: 24px;
+        letter-spacing: 0px;
+    }
+
+    .border-text {
+        font-size: 6px;
+        letter-spacing: 2px;
+    }
+
+    .text-title h2 {
+        font-size: 35px;
+        padding: 25% 0% 0% 0%;
+    }
+
+    .text-title h5 {
+        font-size: 14px;
+    }
+    
+    .btn.button-text {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+    .modal-title {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    
+    .sectionTitle h1 {
+        font-size: 12px;
+        letter-spacing: 0px
+    }
+
+    .sectionContent h2 {
+        font-size: 10px;
+        letter-spacing: 0px;
+    }
+
+    .subDetails {
+        font-size: 8px;
+        letter-spacing: 0px;
+    }
+
+    .subDetails-right {
+        font-size: 8px;
+        letter-spacing: 0px;
+    }
+
+    article ul{
+        margin-left: -10%;
+        display: inline-block;;
+    }
+
+    .subDetails-small {
+        font-size: 10px;
+        letter-spacing: 0px;
+    }
+
+    .keySkills {
+        column-count: 1;
+    }
+
+    .keySkills li {
+        font-size: 10px;
+    }
+
+    .graph {
+        width: 200px;
+        height: 100px;
+        font-size: 16px;
+        line-height: 180px;
+    }
+
+    .graph:before, .graph:after {
+        width: 200px;
+        height: 100px;
+    }
+
+    #social-test li {
+        width: 20%;
+        height: 20%;
+    }
+
+    footer p {
+        font-size: 8px;
+    }
+
+    footer p.float-left {
+        padding: 1% 0% 1% 0%;
+    }
+
+    footer p.float-right {
+        padding: 1% 0% 1% 0%;
+    }
+}
+
+/***** 320x240px - LANDSCAPE ****/
+
+@media screen and (min-width: 240px) and (max-width: 320px) and (orientation: landscape) {
+    .navbar-inverse .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+    .graph {
+        width: 220px;
+        height: 110px;
+        font-size: 16px;
+        line-height: 200px;
+    }
+
+    .graph:before,
+    .graph:after {
+        width: 220px;
+        height: 110px;
+    }
+
+    .model {
+        padding: 5% 0%;
+    }
+
+    .padd {
+        padding: 3%;
+    }
+
+    #social-test li {
+        width: 20%;
+        height: 20%;
+        margin-left: 3%;
+    }
+
+    footer p.float-left {
+        margin-left: 15%;
+        padding: 1% 0% 1% 0%;
+    }
+
+    footer p.float-right {
+        margin-right: 25%;
+        padding: 0% 0% 1% 0%;
+    }
+}
+
+/***** 240x320px - PORTRAIT ****/
+
+@media screen and (max-width: 240px) and (orientation: portrait) {
+    nav .container a.navbar-brand {
+        font-size: 18px !important;
+    }
+
+    button.navbar-toggler-right {
+        position: absolute;
+        right: -15%;
+        padding: 0%;
+    }
+
+    span.navbar-toggler-icon {
+        width: 30px;
+        height: 25px;
+    }
+
+    .navbar-inverse .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+
+    .border {
+        font-size: 28px;
+        letter-spacing: 0px;
+        padding: 10px;
+    }
+
+    .border-text {
+        font-size: 7px;
+        letter-spacing: 1px;
+        padding: 7px;
+    }
+
+    .text-title h2 {
+        font-size: 30px;
+        padding: 25% 0% 0% 0%;
+        letter-spacing: 5px;
+        margin: 0%;
+    }
+
+    .text-title h5 {
+        font-size: 10px;
+    }
+
+    .azure{
+        padding: 5% 0%;
+    }
+    
+    .btn.button-text {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+    .graph {
+        width: 220px;
+        height: 110px;
+        font-size: 16px;
+        line-height: 200px;
+    }
+
+    .graph:before,
+    .graph:after {
+        width: 220px;
+        height: 110px;
+    }
+
+    .model {
+        padding: 5% 0%;
+    }
+
+    .padd {
+        padding: 3%;
+    }
+
+    footer p {
+        font-size: 8px;
+    }
+
+    footer p.float-left {
+        margin-left: 20%;
+        padding: 1% 0% 1% 0%;
+    }
+
+    footer p.float-right {
+        margin-right: 28%;
+        padding: 0% 0% 1% 0%;
+    }
+}

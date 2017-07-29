@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>MezzoSonja | Web Developer</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="tools/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="tools/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Bellefair|Calligraffitti|Italianno|Lato:400,700|Lobster+Two:400,400i,700,700i|Open+Sans:400,600,700|Poiret+One|Quicksand:400,500,700|Raleway:400,500,600,700|Sarina|Josefin+Sans:400,600,700" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-inverse navbar-color fixed-top navbar-toggleable-sm">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand brand-name" href="#">MezzoSonja</a>
+            <div class="collapse navbar-collapse" id="navbarMain">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="active nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header -->
+    <div class="bgimg-1" id="home">
+        <div class="caption">
+            <span class="border">HELLO WORLD!</span>
+            <br class="no">
+            <br class="no">
+            <span class="border-text">AND WELCOME TO MY PERSONAL PORTFOLIO</span>
+        </div>
+    </div>
+    <!-- About -->
+    <section class="content content-about" id="about">
+        <div class="container">
+            <div class="text-title">
+                <h2>about me</h2>
+                <h5>Good design is obvious. Great design is transparent.</h5>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-12 box">
+                    <div class="padded text-center">
+                        <img src="img/me.jpg" class="img-fluid center-block" alt="me">
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 box">
+                    <div class="text-box padded">
+                        <p>Hi, my name is Mezzo Sonja.
+                            <br>I am, by formal education, an architect but out of interest and self development I acquired Web design / Front-end Skills. I love crafting beautiful web pages in HTML5, CSS3 and JavaScript or jQuery. I enjoy learning new things generally, especially when those skills help me achieve my goal. I am punctual and very open to ideas.
+                            <br>I'm eager to start my career in the exciting world of web development, so if you have an oppurtunity, please <a href="#contact" class="contactme"> contact me</a> at any time.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Porfolio -->
+    <section class="silver" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-title">
+                    <h2>portfolio</h2>
+                    <h5>Some of my work</h5>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="http://landing.mezzosonja.com/" class="portfolio-link">
+                    <div class="portfolio-hover">
+                    </div>
+                    <img src="img/Folio_1.jpg" alt="" class="img-responsive">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Landing Page</h4>
+                    <p id="small-text" class="text-muted"></p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="http://socialnetwork.mezzosonja.com/" class="portfolio-link">
+                    <div class="portfolio-hover">
+                    </div>
+                    <img src="img/Folio_3.jpg" alt="" class="img-responsive">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Social Network</h4>
+                    <p id="small-text" class="text-muted"></p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="http://makeupstudio.mezzosonja.com/" class="portfolio-link">
+                    <div class="portfolio-hover">
+                    </div>
+                    <img src="img/Folio_2.jpg" alt="" class="img-responsive">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Make Up Studio</h4>
+                    <p id="small-text" class="text-muted"></p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="http://mezzosonja.com/" class="portfolio-link">
+                    <div class="portfolio-hover">
+                    </div>
+                    <img src="img/Folio_4.jpg" alt="" class="img-responsive">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Portfolio</h4>
+                    <p id="small-text" class="text-muted"></p>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </section>
+    <!-- CV -->
+    <section class="azure">
+        <!-- Button trigger modal -->
+        <center>
+            <button type="button" class="btn btn-secondary btn-lg button-text " data-toggle="modal" data-target="#exampleModalLong">curriculum vitae</button>
+        </center>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog size" role="document">
+                <div class="modal-content">
+                    <div class="modal-header hr">
+                        <h5 class="modal-title modal-title-style" id="exampleModalLongTitle">Curriculum Vitae</h5>
+                        <button type="button" class="close color" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body body-modal">
+                        <div id="mainArea" class="quickFade delayFive">
+                            <section class="cv">
+                                <article>
+                                    <div class="sectionTitle">
+                                        <h1>Personal Profile</h1>
+                                    </div>
+                                    <div class="sectionContent">
+                                        <p class="subDetails-small">Date of Birth: 22.07.1980.</p>
+                                        <p class="subDetails-small">Address: Borivoja Stevanovića 2, 18000 Niš, Serbia</p>
+                                        <p class="subDetails-small">Mobile Phone: +381 61 61 70 199</p>
+                                    </div>
+                                </article>
+                                <div class="clear"></div>
+                            </section>
+                            <br>
+                            <section class="cv">
+                                <article>
+                                    <div class="sectionTitle">
+                                        <h1>Personal Objective</h1>
+                                    </div>
+                                    <div class="sectionContent">
+                                        <p class="subDetails-small">To acquire new experiences and knowledge in an organization in which I can grow professionally and contribute to its development and achievement of its goals. I am hardworking, persistent, responsible, capable of working in teams as well as individually, a fast-learner, an outgoing person with excellent negotiating skills.</p>
+                                    </div>
+                                </article>
+                                <div class="clear"></div>
+                            </section>
+                            <br>
+                            <section class="cv">
+                                <div class="sectionTitle">
+                                    <h1>Education</h1>
+                                </div>
+                                <div class="sectionContent">
+                                    <article>
+                                        <h2>NiCAT - IT Academy, Niš - Serbia</h2>
+                                        <p class="subDetails">Front-end Programmer<span class="subDetails-right">Okt. 2017 - April 2017</span></p>
+                                    </article>
+                                    <br>
+                                    <article>
+                                        <h2>IT Centar, Niš - Serbia</h2>
+                                        <p class="subDetails">Advanced Web Development<span class="subDetails-right">Mart 2016 - June 2016</span></p>
+                                    </article>
+                                    <br>
+                                    <article>
+                                        <h2>Faculty of Civil Engineering and Architecture,<br>University of Niš, Serbia</h2>
+                                        <p class="subDetails">Master Degree In Architecture<span class="subDetails-right">Oct 1999 - June 2010</span></p>
+                                    </article>
+                                </div>
+                                <div class="clear"></div>
+                            </section>
+                            <br>
+                            <section class="cv">
+                                <div class="sectionTitle">
+                                    <h1>Work Experience</h1>
+                                </div>
+                                <div class="sectionContent">
+                                    <article>
+                                        <h2>SmartNet, Niš - Serbia </h2>
+                                        <p class="subDetails">Position: Practitioner <span class="subDetails-right">Jan. 2017 - April 2017</span></p>
+                                        <ul>
+                                            <li class="subDetails-small">Work on current projects</li>
+                                        </ul>
+                                    </article>
+                                    <br>
+                                    <article>
+                                        <h2>Studio Mezzo, Niš - Serbia </h2>
+                                        <p class="subDetails">Position: Associate/ Architect <span class="subDetails-right">Nov. 2008 - Sep. 2012</span></p>
+                                        <ul>
+                                            <li class="subDetails-small">Working on conceptual designs and main projects</li>
+                                            <li class="subDetails-small">Interior design</li>
+                                        </ul>
+                                    </article>
+                                    <br>
+                                    <article>
+                                        <h2>Bear-ing project bureau, Niš - Serbia </h2>
+                                        <p class="subDetails">Civil Engineering of Techician<span class="subDetails-right">Mar. 2001 - Oct. 2008</span></p>
+                                        <ul>
+                                            <li class="subDetails-small">Working on conceptual designs and main projects</li>
+                                        </ul>
+                                    </article>
+                                </div>
+                                <div class="clear"></div>
+                            </section>
+                            <br>
+                            <section class="cv">
+                                <div class="sectionTitle">
+                                    <h1>Key Skills</h1>
+                                </div>
+                                <div class="sectionContent">
+                                    <ul class="keySkills">
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>Bootstrap</li>
+                                        <li>JavaScript</li>
+                                        <li>jQuery</li>
+                                        <li>Sass</li>
+                                        <li>AutoCAD</li>
+                                    </ul>
+                                </div>
+                                <div class="clear"></div>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="modal-footer hr">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills -->
+    <section class="content" id="skills">
+        <div class="container">
+            <div class="text-title">
+                <h2>skills</h2>
+                <h5>Every artist was first an amateur.</h5>
+            </div>
+            <div class="row model">
+                <div class="model-1 col-md-6 col-sm-12 padd float-left">
+                    <div class="graph">HTML5</div><span tooltip="80%" class="tooltip">HTML5</span>
+                </div>
+                <div class="model-2 col-md-6 col-sm-12 padd float-left">
+                    <div class="graph">CSS3</div><span tooltip="80%" class="tooltip">CSS3</span>
+                </div>
+                <div class="model-3 col-md-6 col-sm-12 padd float-left">
+                    <div class="graph">JavaScript</div><span tooltip="60%" class="tooltip">JavaScript</span>
+                </div>
+                <div class="model-4 col-md-6 col-sm-12 padd float-left">
+                    <div class="graph">JQuery</div><span tooltip="60%" class="tooltip">JQuery</span>
+                </div>
+                <div class="model-5 col-md-6 col-sm-12 padd float-left">
+                    <div class="graph">Sass</div><span tooltip="30%" class="tooltip">Sass</span>
+                </div>
+                <div class="model-6 col-md-6 col-sm-12 padd float-left">
+                    <div class="graph">Bootstrap</div><span tooltip="80%" class="tooltip">Bootstrap</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="text-title">
+                <h2>sey hello</h2>
+                <h5>A simple hello could lead to a million things</h5>
+            </div>
+            <div class="row">
+                <div class=" col-12 text-title text-contact">
+                    <h6>Get in touch with me</h6>
+                    <h6>Or find me on:</h6>
+                </div>
+                <div class="center">
+                    <div id="social-test">
+                        <ul class="social">
+                            <li class="facebook">
+                                <a href="https://www.facebook.com/mezzosonja">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="twitter">
+                                <a href="https://twitter.com/MezzoSonja">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="linkedin">
+                                <a href="https://www.linkedin.com/feed/?trk=nav_responsive_tab_home">
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="google-plus">
+                                <a href="https://plus.google.com/u/0/116114505918884485932">
+                                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="github">
+                                <a href="https://github.com/mezzosonja">
+                                    <i class="fa fa-github" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Back To Top -->
+    <button class="back-to-top" type="button"></button>
+    <!-- Footer -->
+    <section class="footer">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="copyright" class="text-center">
+                            <p class="float-left">Made with <i class="fa fa-heart" aria-hidden="true"></i> by MezzoSonja</p>
+                            <p class="float-right">mezzosonja@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="tools/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Theme JavaScript -->
+    <script src="js/folio.js"></script>
+</body>
+
+</html>
